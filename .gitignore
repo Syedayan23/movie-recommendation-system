@@ -1,0 +1,34 @@
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Datasets and processed artifacts
+data/raw/
+data/processed/*.csv
+data/processed/*.png
+data/processed/*.jpg
+
+# Precomputed models / cache
+*.pkl
+
+# Log files
+*.log
+
+# Environment configuration files (database passwords, API keys)
+.env
+.env.*
+
+# IDE configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
